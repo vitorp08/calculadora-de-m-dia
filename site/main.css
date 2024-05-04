@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container{
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header{
+    background-color: #6c6767;
+    color: #ffffff;
+
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding-block: 16px;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#sobre .container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+#sobre .container img{
+    width: 100%;
+    
+}
+ 
+#sobre .container h2{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 16px;
+    font-size: 32px;
+    color: #6c6767;
+}
+
+#sobre .container p{
+    text-align: center;
+    /* text-align: justify; */
+}
+
+#contato{
+    margin-top: 40px;
+
+}
+
+#contato h3{
+    text-align: center;
+    font-size: 28px;
+    margin-block: 32px;
+    font-style: italic;
+    color: #6c6767;
+    
+}
+#contato .container form{
+    border:  1px solid #6c6767;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    margin-block: px;
+    border-radius: 10px;
+}
+
+#contato .container form input{
+    margin-block: 8px;
+    font-size: 18px;
+    border: none ;
+    outline: none;
+    border-bottom: 1px solid  #6c6767 ;
+}
+
+#contato .container form textarea{
+    height: 100px;
+    resize: none;
+}
+
+
+#contato .container form button{
+    border: none;
+    padding: 8px;
+    background-color: #6c6767;
+    color: #ffffff;
+    font-weight:  bold;
+    cursor: pointer;
+
+}
+
+#ondeestamos{
+    margin-top: 40px;
+    overflow-x: hidden;
+}
+
+#ondeestamos{
+    width: 100vw;
+    
+}
+
+footer{
+    background-color: #6c6767;
+    padding-top: 10px;
+    color: #ffffff;
+}
+footer .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+footer .container ion-icon{
+    font-size: 30px;
+    margin-inline: 10px;
+    
+}
+
+footer .container ul{
+    display: flex;
+    
+    justify-content: space-between;
+}
+footer .container ul li{
+    list-style: none;
+    
+    
+    
+}
+
+footer p{
+    text-align: center;
+    margin-block: 32px;
+    padding-block: 20px ;
+}
